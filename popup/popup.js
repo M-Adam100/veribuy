@@ -33,7 +33,7 @@ document.querySelector('button').addEventListener('click', async () => {
             redirect: 'follow'
         };
 
-        const response = await fetch("https://veribuy.herokuapp.com//createUser", requestOptions);
+        const response = await fetch("https://veribuy.herokuapp.com/createUser", requestOptions);
         console.log(response);
         const res = await response.json();
         if (res.error) {
@@ -52,7 +52,7 @@ document.querySelector('button').addEventListener('click', async () => {
 const checkEmail = async () => {
     const  emailAddress  = getLocal('emailAddress')?.emailAddress;
     if (emailAddress) {
-        const response = await fetch("https://veribuy.herokuapp.com//checkUser", {
+        const response = await fetch("https://veribuy.herokuapp.com/checkUser", {
             method: 'POST',
             headers: {
                 "Content-Type": "application/json"
