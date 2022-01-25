@@ -44,6 +44,7 @@
     float: right;
     font-size: 28px;
     font-weight: bold;
+    align-self: center;
   }
   
   .close:hover,
@@ -54,12 +55,20 @@
   }
   
   .modal-header {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
     padding: 2px 16px;
     background-color: #5cb85c;
     color: white;
   }
   
-  .modal-body {padding: 2px 16px;}
+  .modal-body {padding: 2px 16px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+
+}
   
   .modal-footer {
     padding: 2px 16px;

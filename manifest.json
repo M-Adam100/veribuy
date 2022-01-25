@@ -21,6 +21,7 @@
     "host_permissions": [
       "*://*.opensea.io/*"
      ]
+     
 	
 }
 
