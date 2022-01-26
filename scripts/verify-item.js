@@ -34,7 +34,7 @@ console.log("Running Script");
                   <p style="
                   align-self: center;
                   text-align: center;
-              " id="item-message">We double checked the NFT for you. You can continue with ease :)</p>
+              " id="item-message">We double checked the NFT for you. \n You can continue with ease :)</p>
                 </div>
               </div>
               `

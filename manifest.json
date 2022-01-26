@@ -1,7 +1,7 @@
 {
 	"name": "Verified NFT",
-	"version": "1.0",
-	"description": "",
+	"version": "1.1",
+	"description": "Making sure your NFT is verified so you won't get scammed",
 	"manifest_version": 3,
 	"incognito": "split",
 	"icons": {
